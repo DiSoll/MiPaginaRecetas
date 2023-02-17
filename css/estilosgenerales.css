@@ -1,0 +1,205 @@
+
+
+/* ---------------------HEADER----------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.tamaño_nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 45px 45px;
+    background-image: url(../multimedia/imagenes/fondo10.jpg);
+    background-size: cover;
+}
+.tamaño_ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.tamaño_li{
+    list-style-type: none;
+    color: #e9db13;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 4px  aliceblue solid;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color:  rgba(41, 12, 12, 0.952);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 8px -5px;
+    margin-left:40px;
+}
+.a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family:cursive;
+    color: #e9db13;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.tamaño_li :hover {
+    background-color: rgb(255, 255, 255);
+}
+
+/* ---------------------NOSOTROS----------------*/
+
+#main-container{
+    background-image: url(../multimedia/imagenes/fondo1.jpg);
+    background-size: cover;
+}
+.contenedor_video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 40px 0 ;
+}
+.contenedor_texto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding-bottom: 70px;
+}
+.texto1 {
+    width: 50rem;
+    min-width: 10rem;
+    height: 5rem;
+    padding-top: 1rem;
+    color: #e9db13;
+}
+.texto2 {
+    width: 45rem;
+    min-width: 10rem;
+    height: 6rem;
+    padding: 1rem 3rem;
+    color: #e97313;
+}
+
+/* ---------------------RECETAS----------------*/
+
+#main-container_recetas{
+    background-image: url(../multimedia/imagenes/fondo1.jpg);
+    background-size: cover;
+}
+.titulos_recetas  {
+    font-family: 'Caveat', cursive;
+    text-shadow: 2px 2px 7px #944809;
+    font-size: 25px;
+    text-align: center;
+    color: #e9db13;
+    padding: 30px 30px;
+}
+.contenedor_principal{
+    width: 1000px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    margin-left: 260px;
+    border: 3px #e9db13 solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px -5px;
+}
+.contenedor1{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    padding-top: 10px;
+}
+.contenedor2{
+    color: antiquewhite;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    width: 500px;
+} 
+
+
+/* ---------------------CONTACTO----------------*/
+#main-container_contacto{
+    background-image: url(../multimedia/imagenes/fondo1.jpg);
+    background-size: cover;
+}
+
+/*  formulario */
+.titulo_contacto{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: #ecece0;
+    padding: 30px 30px;
+}
+#Contenedor_formulario{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+#color{
+    color: #8a0a0a;
+}
+.fondo{
+    background-color:rgba(14, 13, 13, 0.808);
+    padding: 25px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px #e9db13 solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px -5px;
+}
+.campo{
+    padding-top: 20px;
+}
+.campo input, .campo textarea{
+    padding: 10px;
+    width: 350px;
+}
+.boton{
+    padding-top: 20px;
+}
+
+/* --------------------FOOTER---------------*/
+footer {
+    background-color: rgba(87, 40, 6, 0.808);
+    height: auto;
+    width: 100%; 
+    height: auto;  
+    padding: 7px 7px;
+}
+footer ul{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+footer li {
+    list-style-type: none;
+    padding-top: 10px;
+    margin-left: 20px;
+}
