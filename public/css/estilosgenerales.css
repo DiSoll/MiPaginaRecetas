@@ -96,7 +96,13 @@
 }
 
 /* ---------------------RECETAS----------------*/
-
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #main-container_recetas{
     background-image: url(../multimedia/imagenes/fondo1.jpg);
     background-size: cover;
@@ -117,7 +123,6 @@
     justify-content: center;
     align-items: center;
     padding: 20px 50px;
-    margin-left: 230px;
     border: 3px #e9db13 solid;
     border-radius: 5px;
     box-shadow: 5px 5px 8px -5px;
